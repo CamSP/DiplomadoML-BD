@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a43ed68ed7c84368a7a965b322c3e50f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a43ed68ed7c84368a7a965b322c3e50f" ></div>
+        
+</body>
+<script>    
+    
+            var map_a43ed68ed7c84368a7a965b322c3e50f = L.map(
+                "map_a43ed68ed7c84368a7a965b322c3e50f",
+                {
+                    center: [4.624335, -74.063644],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a7e94df31d9743a4a4a41bfb9074cfc9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var marker_beda84bb2adb4fb6ba64b5a3b91adb5b = L.marker(
+                [4.6130545936828, -74.190594818804],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_d58dcf88c99b4e4aa1d39507e710ca80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_beda84bb2adb4fb6ba64b5a3b91adb5b.setIcon(icon_d58dcf88c99b4e4aa1d39507e710ca80);
+        
+    
+        var popup_4d63e7183ec143bd998024e8ab2a1103 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79ef60a4765143adb86cc63e148f0b17 = $(`<div id="html_79ef60a4765143adb86cc63e148f0b17" style="width: 100.0%; height: 100.0%;">motivo_viaje: Tramites hora_inicio: 08:05:00 hora_fin: 09:55:00 medio: TPC-SITP </div>`)[0];
+            popup_4d63e7183ec143bd998024e8ab2a1103.setContent(html_79ef60a4765143adb86cc63e148f0b17);
+        
+
+        marker_beda84bb2adb4fb6ba64b5a3b91adb5b.bindPopup(popup_4d63e7183ec143bd998024e8ab2a1103)
+        ;
+
+        
+    
+    
+            var marker_054f3685e64e45a58c0b6a29fa70855c = L.marker(
+                [4.6502682159333, -74.067594708128],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_9f67434445d840be9f5a667970811a79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_054f3685e64e45a58c0b6a29fa70855c.setIcon(icon_9f67434445d840be9f5a667970811a79);
+        
+    
+        var popup_9536991e35d4433d9a94f7b8f0838ed0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5f9102c99ed41c0bf90cd7fc0498010 = $(`<div id="html_c5f9102c99ed41c0bf90cd7fc0498010" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 10:21:05 hora_fin: 12:11:05 medio: TPC-SITP </div>`)[0];
+            popup_9536991e35d4433d9a94f7b8f0838ed0.setContent(html_c5f9102c99ed41c0bf90cd7fc0498010);
+        
+
+        marker_054f3685e64e45a58c0b6a29fa70855c.bindPopup(popup_9536991e35d4433d9a94f7b8f0838ed0)
+        ;
+
+        
+    
+    
+            var marker_6eda66efec8546cdbd63aa8857b2ed7c = L.marker(
+                [4.6130545936828, -74.190594818804],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_12b952d8e9544c6da9b0ef07fc335233 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6eda66efec8546cdbd63aa8857b2ed7c.setIcon(icon_12b952d8e9544c6da9b0ef07fc335233);
+        
+    
+        var popup_26d8eee7022b41bfa667b3ded7fe74eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7215d8c68de44dfd9b88b191d05039e0 = $(`<div id="html_7215d8c68de44dfd9b88b191d05039e0" style="width: 100.0%; height: 100.0%;">motivo_viaje: Estudiar hora_inicio: 06:27:00 hora_fin: 06:45:00 medio: PEATON </div>`)[0];
+            popup_26d8eee7022b41bfa667b3ded7fe74eb.setContent(html_7215d8c68de44dfd9b88b191d05039e0);
+        
+
+        marker_6eda66efec8546cdbd63aa8857b2ed7c.bindPopup(popup_26d8eee7022b41bfa667b3ded7fe74eb)
+        ;
+
+        
+    
+    
+            var marker_3ad9bb1173fa484d805e3ae34a18ca9e = L.marker(
+                [4.6156126809888, -74.190138057954],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_7171421eb6254777a668750c1c2d67c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3ad9bb1173fa484d805e3ae34a18ca9e.setIcon(icon_7171421eb6254777a668750c1c2d67c9);
+        
+    
+        var popup_1ff30c761f104273ae585018574e5973 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e2b093c98ff4f6f9c5352e58139774d = $(`<div id="html_2e2b093c98ff4f6f9c5352e58139774d" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 08:46:27 hora_fin: 09:41:27 medio: PEATON </div>`)[0];
+            popup_1ff30c761f104273ae585018574e5973.setContent(html_2e2b093c98ff4f6f9c5352e58139774d);
+        
+
+        marker_3ad9bb1173fa484d805e3ae34a18ca9e.bindPopup(popup_1ff30c761f104273ae585018574e5973)
+        ;
+
+        
+    
+    
+            var marker_3e52868e0f3849c18d3d4bb746a03eb7 = L.marker(
+                [4.6577642414013, -74.074829090851],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_8080ecb0de33421081b9c725a5983ebf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e52868e0f3849c18d3d4bb746a03eb7.setIcon(icon_8080ecb0de33421081b9c725a5983ebf);
+        
+    
+        var popup_9e009f5289f54a25816bba198ebffe1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f5d2cee090c4d8d97ca43ee2a24da66 = $(`<div id="html_7f5d2cee090c4d8d97ca43ee2a24da66" style="width: 100.0%; height: 100.0%;">motivo_viaje: Trabajar hora_inicio: 07:47:00 hora_fin: 09:19:00 medio: MOTO </div>`)[0];
+            popup_9e009f5289f54a25816bba198ebffe1c.setContent(html_7f5d2cee090c4d8d97ca43ee2a24da66);
+        
+
+        marker_3e52868e0f3849c18d3d4bb746a03eb7.bindPopup(popup_9e009f5289f54a25816bba198ebffe1c)
+        ;
+
+        
+    
+    
+            var marker_7c9c8b8d4c1c4bcabe111a4e78af465c = L.marker(
+                [4.6899883259617, -74.065486185993],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_a017a77d4a3140b59b1dd25a3fef7843 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c9c8b8d4c1c4bcabe111a4e78af465c.setIcon(icon_a017a77d4a3140b59b1dd25a3fef7843);
+        
+    
+        var popup_cf5ff53b5c5d4ea69ab2065964fcacca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ca30a510cd74eaf9f8e10ad79ac463c = $(`<div id="html_3ca30a510cd74eaf9f8e10ad79ac463c" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 16:30:00 hora_fin: 17:06:00 medio: MOTO </div>`)[0];
+            popup_cf5ff53b5c5d4ea69ab2065964fcacca.setContent(html_3ca30a510cd74eaf9f8e10ad79ac463c);
+        
+
+        marker_7c9c8b8d4c1c4bcabe111a4e78af465c.bindPopup(popup_cf5ff53b5c5d4ea69ab2065964fcacca)
+        ;
+
+        
+    
+    
+            var marker_c6cdae94b3714c44ad6f243f8ed9955c = L.marker(
+                [4.6577642414013, -74.074829090851],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_deaf8cb250cd4abcba986ecff0f85cab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c6cdae94b3714c44ad6f243f8ed9955c.setIcon(icon_deaf8cb250cd4abcba986ecff0f85cab);
+        
+    
+        var popup_9733a9734d47416084688ac2972c8772 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_532494a57ada46e98842f6b33ead3403 = $(`<div id="html_532494a57ada46e98842f6b33ead3403" style="width: 100.0%; height: 100.0%;">motivo_viaje: Estudiar hora_inicio: 16:30:00 hora_fin: 17:06:00 medio: PEATON </div>`)[0];
+            popup_9733a9734d47416084688ac2972c8772.setContent(html_532494a57ada46e98842f6b33ead3403);
+        
+
+        marker_c6cdae94b3714c44ad6f243f8ed9955c.bindPopup(popup_9733a9734d47416084688ac2972c8772)
+        ;
+
+        
+    
+    
+            var marker_6ed748576248447e82a70dd2f99fc5d4 = L.marker(
+                [4.6495623851774, -74.065048167068],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_0885226ec3ba4d56ae5dc623fdef9fe3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ed748576248447e82a70dd2f99fc5d4.setIcon(icon_0885226ec3ba4d56ae5dc623fdef9fe3);
+        
+    
+        var popup_7beaaf25d03d4532b23a178614a5d289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f9de0e51df548bb8eb29a72ccb294c8 = $(`<div id="html_0f9de0e51df548bb8eb29a72ccb294c8" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 18:46:06 hora_fin: 19:31:42 medio: PEATON </div>`)[0];
+            popup_7beaaf25d03d4532b23a178614a5d289.setContent(html_0f9de0e51df548bb8eb29a72ccb294c8);
+        
+
+        marker_6ed748576248447e82a70dd2f99fc5d4.bindPopup(popup_7beaaf25d03d4532b23a178614a5d289)
+        ;
+
+        
+    
+    
+            var marker_568ae6105a8c43889f0eb0f324b41c69 = L.marker(
+                [4.6085647688779, -74.172809896978],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_ee7be15206454d8a9bc212b07ddc4ec2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_568ae6105a8c43889f0eb0f324b41c69.setIcon(icon_ee7be15206454d8a9bc212b07ddc4ec2);
+        
+    
+        var popup_bdfc8861adf44a468e695c1fc8485a0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a58cb237e90e45a1a8f3d83aabf39493 = $(`<div id="html_a58cb237e90e45a1a8f3d83aabf39493" style="width: 100.0%; height: 100.0%;">motivo_viaje: Asuntos de Trabajo hora_inicio: 10:50:00 hora_fin: 11:50:00 medio: ESPECIAL </div>`)[0];
+            popup_bdfc8861adf44a468e695c1fc8485a0f.setContent(html_a58cb237e90e45a1a8f3d83aabf39493);
+        
+
+        marker_568ae6105a8c43889f0eb0f324b41c69.bindPopup(popup_bdfc8861adf44a468e695c1fc8485a0f)
+        ;
+
+        
+    
+    
+            var marker_6821da4e6687446986c60b4eb46b45f9 = L.marker(
+                [4.6371862863255, -74.118808629596],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_0cd7368943db414a9cd0451cc4f3906d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6821da4e6687446986c60b4eb46b45f9.setIcon(icon_0cd7368943db414a9cd0451cc4f3906d);
+        
+    
+        var popup_39e48fbc578f4008914598e0c2e3ba33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d752b89c5e144024a03d787b4cd426c5 = $(`<div id="html_d752b89c5e144024a03d787b4cd426c5" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 16:20:00 hora_fin: 17:20:00 medio: ESPECIAL </div>`)[0];
+            popup_39e48fbc578f4008914598e0c2e3ba33.setContent(html_d752b89c5e144024a03d787b4cd426c5);
+        
+
+        marker_6821da4e6687446986c60b4eb46b45f9.bindPopup(popup_39e48fbc578f4008914598e0c2e3ba33)
+        ;
+
+        
+    
+    
+            var marker_23724d5da43c474cb231f139d273467e = L.marker(
+                [4.6085647688779, -74.172809896978],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_a4386c6dcb0b4b6e8a533cc8071f58a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_23724d5da43c474cb231f139d273467e.setIcon(icon_a4386c6dcb0b4b6e8a533cc8071f58a5);
+        
+    
+        var popup_3566e8490bb34f7080cbb4f4a88751ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd33aeb04b4f4d26991f28aaf45f6c05 = $(`<div id="html_dd33aeb04b4f4d26991f28aaf45f6c05" style="width: 100.0%; height: 100.0%;">motivo_viaje: Asuntos de Trabajo hora_inicio: 10:51:00 hora_fin: 11:58:00 medio: TPC-SITP </div>`)[0];
+            popup_3566e8490bb34f7080cbb4f4a88751ed.setContent(html_dd33aeb04b4f4d26991f28aaf45f6c05);
+        
+
+        marker_23724d5da43c474cb231f139d273467e.bindPopup(popup_3566e8490bb34f7080cbb4f4a88751ed)
+        ;
+
+        
+    
+    
+            var marker_0cff2643875342ceac758daed831bf39 = L.marker(
+                [4.6371862863255, -74.118808629596],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_9005874fcda84097b27a7a23d500efc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0cff2643875342ceac758daed831bf39.setIcon(icon_9005874fcda84097b27a7a23d500efc5);
+        
+    
+        var popup_a20c21c858cb4be3958d20cf1fc534b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c48218d6ece41578ef28af10d425280 = $(`<div id="html_0c48218d6ece41578ef28af10d425280" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 16:28:00 hora_fin: 17:35:00 medio: TPC-SITP </div>`)[0];
+            popup_a20c21c858cb4be3958d20cf1fc534b4.setContent(html_0c48218d6ece41578ef28af10d425280);
+        
+
+        marker_0cff2643875342ceac758daed831bf39.bindPopup(popup_a20c21c858cb4be3958d20cf1fc534b4)
+        ;
+
+        
+    
+    
+            var marker_f443411fbffe4a5caac9e54e3c0aa5b1 = L.marker(
+                [4.6085647688779, -74.172809896978],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_034579b55be84230a6ed6882bec10e62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f443411fbffe4a5caac9e54e3c0aa5b1.setIcon(icon_034579b55be84230a6ed6882bec10e62);
+        
+    
+        var popup_38f220d8176540bcb06ed70d904d1889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_098f74f30646460496a37cb32d3f11e8 = $(`<div id="html_098f74f30646460496a37cb32d3f11e8" style="width: 100.0%; height: 100.0%;">motivo_viaje: Estudiar hora_inicio: 10:46:00 hora_fin: 11:26:00 medio: PEATON </div>`)[0];
+            popup_38f220d8176540bcb06ed70d904d1889.setContent(html_098f74f30646460496a37cb32d3f11e8);
+        
+
+        marker_f443411fbffe4a5caac9e54e3c0aa5b1.bindPopup(popup_38f220d8176540bcb06ed70d904d1889)
+        ;
+
+        
+    
+    
+            var marker_8f42eff75fd942f59dad07d62469c5c7 = L.marker(
+                [4.613845104254, -74.176593561814],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_2701ae55baf44b22984b63656dda7660 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8f42eff75fd942f59dad07d62469c5c7.setIcon(icon_2701ae55baf44b22984b63656dda7660);
+        
+    
+        var popup_8994c1896ce345028d12df5f08ed7897 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2906cdddd6074126ad125ce0233abf1f = $(`<div id="html_2906cdddd6074126ad125ce0233abf1f" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 18:15:00 hora_fin: 19:00:00 medio: PEATON </div>`)[0];
+            popup_8994c1896ce345028d12df5f08ed7897.setContent(html_2906cdddd6074126ad125ce0233abf1f);
+        
+
+        marker_8f42eff75fd942f59dad07d62469c5c7.bindPopup(popup_8994c1896ce345028d12df5f08ed7897)
+        ;
+
+        
+    
+    
+            var marker_bf77d3713cc34aceb4eceb479c3a0734 = L.marker(
+                [4.6105477030688, -74.209994598705],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_0d5eaeccff1242cfa6db667d05383a07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf77d3713cc34aceb4eceb479c3a0734.setIcon(icon_0d5eaeccff1242cfa6db667d05383a07);
+        
+    
+        var popup_3e782728984049cb9b50f9c5097c81b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_336c25ceec4b4889a846764c86ba8e05 = $(`<div id="html_336c25ceec4b4889a846764c86ba8e05" style="width: 100.0%; height: 100.0%;">motivo_viaje: Recibir atencion en salud hora_inicio: 10:44:00 hora_fin: 11:47:00 medio: PEATON </div>`)[0];
+            popup_3e782728984049cb9b50f9c5097c81b9.setContent(html_336c25ceec4b4889a846764c86ba8e05);
+        
+
+        marker_bf77d3713cc34aceb4eceb479c3a0734.bindPopup(popup_3e782728984049cb9b50f9c5097c81b9)
+        ;
+
+        
+    
+    
+            var marker_b7313508f24b454281fcbeaf4f8f3d57 = L.marker(
+                [4.61541151502, -74.16614017490001],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_dcb7048493284883ae4aea1e02e51878 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b7313508f24b454281fcbeaf4f8f3d57.setIcon(icon_dcb7048493284883ae4aea1e02e51878);
+        
+    
+        var popup_bd19ad517aab41da83094aee7984ee28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ee3296c9d924d9b9b39e8fd7e52d99c = $(`<div id="html_0ee3296c9d924d9b9b39e8fd7e52d99c" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 18:15:00 hora_fin: 19:18:00 medio: PEATON </div>`)[0];
+            popup_bd19ad517aab41da83094aee7984ee28.setContent(html_0ee3296c9d924d9b9b39e8fd7e52d99c);
+        
+
+        marker_b7313508f24b454281fcbeaf4f8f3d57.bindPopup(popup_bd19ad517aab41da83094aee7984ee28)
+        ;
+
+        
+    
+    
+            var marker_f2e8c9786cc54ae2bfd40e4e977086d9 = L.marker(
+                [4.6105477030688, -74.209994598705],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_e3dcb3ae9f194890977a89aaa82195e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f2e8c9786cc54ae2bfd40e4e977086d9.setIcon(icon_e3dcb3ae9f194890977a89aaa82195e5);
+        
+    
+        var popup_4db697eb78d745e3a1d9b53107c3261b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d55b176f47504dbea29e86af3c88c808 = $(`<div id="html_d55b176f47504dbea29e86af3c88c808" style="width: 100.0%; height: 100.0%;">motivo_viaje: Trabajar hora_inicio: 10:30:00 hora_fin: 12:30:00 medio: TPC-SITP </div>`)[0];
+            popup_4db697eb78d745e3a1d9b53107c3261b.setContent(html_d55b176f47504dbea29e86af3c88c808);
+        
+
+        marker_f2e8c9786cc54ae2bfd40e4e977086d9.bindPopup(popup_4db697eb78d745e3a1d9b53107c3261b)
+        ;
+
+        
+    
+    
+            var marker_f17c470973354578b2fb3a9087dce78a = L.marker(
+                [4.6743847246883, -74.087790954622],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_8673b65627cd460499314d9da74b4fba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f17c470973354578b2fb3a9087dce78a.setIcon(icon_8673b65627cd460499314d9da74b4fba);
+        
+    
+        var popup_d7bf42d74f8040a5a74875513ee7d411 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd7732e6a503437ab70f66e5f5b12332 = $(`<div id="html_fd7732e6a503437ab70f66e5f5b12332" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 18:07:30 hora_fin: 20:57:30 medio: TPC-SITP </div>`)[0];
+            popup_d7bf42d74f8040a5a74875513ee7d411.setContent(html_fd7732e6a503437ab70f66e5f5b12332);
+        
+
+        marker_f17c470973354578b2fb3a9087dce78a.bindPopup(popup_d7bf42d74f8040a5a74875513ee7d411)
+        ;
+
+        
+    
+    
+            var marker_1722c7ac9afb4066ade8a476cfd0460f = L.marker(
+                [4.6105477030688, -74.209994598705],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_72dffade2bbe4f5b8196bb9b25d87eed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1722c7ac9afb4066ade8a476cfd0460f.setIcon(icon_72dffade2bbe4f5b8196bb9b25d87eed);
+        
+    
+        var popup_eb0ea08412d941768b10b40c66ba4c6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65bd180ea5fb44c78d776d751e475f83 = $(`<div id="html_65bd180ea5fb44c78d776d751e475f83" style="width: 100.0%; height: 100.0%;">motivo_viaje: Trabajar hora_inicio: 08:00:00 hora_fin: 09:00:00 medio: ALIMENTADOR </div>`)[0];
+            popup_eb0ea08412d941768b10b40c66ba4c6b.setContent(html_65bd180ea5fb44c78d776d751e475f83);
+        
+
+        marker_1722c7ac9afb4066ade8a476cfd0460f.bindPopup(popup_eb0ea08412d941768b10b40c66ba4c6b)
+        ;
+
+        
+    
+    
+            var marker_a2936e5c182b4f7a815bf9a54fa59a4b = L.marker(
+                [4.6851548150954, -74.048667472265],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_c0dc8a338dc349c6b4ceac5d45efe938 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2936e5c182b4f7a815bf9a54fa59a4b.setIcon(icon_c0dc8a338dc349c6b4ceac5d45efe938);
+        
+    
+        var popup_4237bd332a174ca2aac4079dc8f66eeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08e44517094e4d7aa98554e24a77d1d6 = $(`<div id="html_08e44517094e4d7aa98554e24a77d1d6" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 18:00:00 hora_fin: 20:00:00 medio: ALIMENTADOR </div>`)[0];
+            popup_4237bd332a174ca2aac4079dc8f66eeb.setContent(html_08e44517094e4d7aa98554e24a77d1d6);
+        
+
+        marker_a2936e5c182b4f7a815bf9a54fa59a4b.bindPopup(popup_4237bd332a174ca2aac4079dc8f66eeb)
+        ;
+
+        
+    
+    
+            var marker_40958d6b98e8432f9c24ed71f32b7b20 = L.marker(
+                [4.616341639903601, -74.17084757383],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_96132c9bddbf487dbe6c9775c478af5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_40958d6b98e8432f9c24ed71f32b7b20.setIcon(icon_96132c9bddbf487dbe6c9775c478af5b);
+        
+    
+        var popup_8ab11e108fc34f5aabd998e5fa04dfb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf490bcc37d94d37afc8b415f0a5dfa0 = $(`<div id="html_bf490bcc37d94d37afc8b415f0a5dfa0" style="width: 100.0%; height: 100.0%;">motivo_viaje: Asuntos de Trabajo hora_inicio: 17:48:00 hora_fin: 18:21:00 medio: Transmilenio </div>`)[0];
+            popup_8ab11e108fc34f5aabd998e5fa04dfb2.setContent(html_bf490bcc37d94d37afc8b415f0a5dfa0);
+        
+
+        marker_40958d6b98e8432f9c24ed71f32b7b20.bindPopup(popup_8ab11e108fc34f5aabd998e5fa04dfb2)
+        ;
+
+        
+    
+    
+            var marker_76dbce84e0314f209b97530340ced1a1 = L.marker(
+                [4.6338948786214, -74.075749650215],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_13d2f090cf574439b3c3c26e4b87a85d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76dbce84e0314f209b97530340ced1a1.setIcon(icon_13d2f090cf574439b3c3c26e4b87a85d);
+        
+    
+        var popup_df62bff7062643759e886d7e4bb83d68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2018b343023c4c8a9b31619ac3d5701b = $(`<div id="html_2018b343023c4c8a9b31619ac3d5701b" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 22:30:00 hora_fin: 23:17:00 medio: Transmilenio </div>`)[0];
+            popup_df62bff7062643759e886d7e4bb83d68.setContent(html_2018b343023c4c8a9b31619ac3d5701b);
+        
+
+        marker_76dbce84e0314f209b97530340ced1a1.bindPopup(popup_df62bff7062643759e886d7e4bb83d68)
+        ;
+
+        
+    
+    
+            var marker_36a4107e5804405a864fd83597ac7ff3 = L.marker(
+                [4.616341639903601, -74.17084757383],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_c063a4a8d3524329a2b18c2ecc7a97e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_36a4107e5804405a864fd83597ac7ff3.setIcon(icon_c063a4a8d3524329a2b18c2ecc7a97e1);
+        
+    
+        var popup_4723841c72394ed3bbe2162bd3dedd02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50d61c1acac64e3f852293b22e52e35f = $(`<div id="html_50d61c1acac64e3f852293b22e52e35f" style="width: 100.0%; height: 100.0%;">motivo_viaje: Recibir atencion en salud hora_inicio: 18:06:00 hora_fin: 18:53:00 medio: TPC-SITP </div>`)[0];
+            popup_4723841c72394ed3bbe2162bd3dedd02.setContent(html_50d61c1acac64e3f852293b22e52e35f);
+        
+
+        marker_36a4107e5804405a864fd83597ac7ff3.bindPopup(popup_4723841c72394ed3bbe2162bd3dedd02)
+        ;
+
+        
+    
+    
+            var marker_76aa09f77be1458eae51edef1eb029e6 = L.marker(
+                [4.5772124570123, -74.099369691003],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_bbde196c86ce41d394013379e6303b5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76aa09f77be1458eae51edef1eb029e6.setIcon(icon_bbde196c86ce41d394013379e6303b5c);
+        
+    
+        var popup_db2a6dc044e04d5d804396e3087892ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3d1acdcb10e4f90a5a0f40e54426b2c = $(`<div id="html_c3d1acdcb10e4f90a5a0f40e54426b2c" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 20:06:00 hora_fin: 21:38:00 medio: TPC-SITP </div>`)[0];
+            popup_db2a6dc044e04d5d804396e3087892ed.setContent(html_c3d1acdcb10e4f90a5a0f40e54426b2c);
+        
+
+        marker_76aa09f77be1458eae51edef1eb029e6.bindPopup(popup_db2a6dc044e04d5d804396e3087892ed)
+        ;
+
+        
+    
+    
+            var marker_940e9910aeb046fea68e690c76570e18 = L.marker(
+                [4.6411343554498, -74.162095160611],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_6a924a3dafba40139672e2b77bb3ea90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_940e9910aeb046fea68e690c76570e18.setIcon(icon_6a924a3dafba40139672e2b77bb3ea90);
+        
+    
+        var popup_f878f1d0c84248fdbe4abe3759aee0b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9893e78810148cd9f24d7ffff352ed1 = $(`<div id="html_f9893e78810148cd9f24d7ffff352ed1" style="width: 100.0%; height: 100.0%;">motivo_viaje: Trabajar hora_inicio: 06:45:00 hora_fin: 07:55:00 medio: BICICLETA, BICICLETA CON MOTOR </div>`)[0];
+            popup_f878f1d0c84248fdbe4abe3759aee0b4.setContent(html_f9893e78810148cd9f24d7ffff352ed1);
+        
+
+        marker_940e9910aeb046fea68e690c76570e18.bindPopup(popup_f878f1d0c84248fdbe4abe3759aee0b4)
+        ;
+
+        
+    
+    
+            var marker_047f585732294068b96082d73be0dc8d = L.marker(
+                [4.6987653093412005, -74.166926630625],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_281670a9851747a49f8903d3e6ed0bda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_047f585732294068b96082d73be0dc8d.setIcon(icon_281670a9851747a49f8903d3e6ed0bda);
+        
+    
+        var popup_6c8b59853d444661ae662e2e4cdda8e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f92b678d0858456ba2394ba4088b9f95 = $(`<div id="html_f92b678d0858456ba2394ba4088b9f95" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 17:55:00 hora_fin: 19:55:00 medio: BICICLETA, BICICLETA CON MOTOR </div>`)[0];
+            popup_6c8b59853d444661ae662e2e4cdda8e2.setContent(html_f92b678d0858456ba2394ba4088b9f95);
+        
+
+        marker_047f585732294068b96082d73be0dc8d.bindPopup(popup_6c8b59853d444661ae662e2e4cdda8e2)
+        ;
+
+        
+    
+    
+            var marker_0b7fb72b70eb42f99016921a388e4115 = L.marker(
+                [4.5867790711897, -74.079272394347],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_6e7c80ddafb84543a59fcd994399c66f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0b7fb72b70eb42f99016921a388e4115.setIcon(icon_6e7c80ddafb84543a59fcd994399c66f);
+        
+    
+        var popup_5f99f38c927246bab1f16d1396bc1ab0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e84d72aa90d34e92b932758037d232cd = $(`<div id="html_e84d72aa90d34e92b932758037d232cd" style="width: 100.0%; height: 100.0%;">motivo_viaje: Trabajar hora_inicio: 07:00:00 hora_fin: 09:00:00 medio: Transmilenio </div>`)[0];
+            popup_5f99f38c927246bab1f16d1396bc1ab0.setContent(html_e84d72aa90d34e92b932758037d232cd);
+        
+
+        marker_0b7fb72b70eb42f99016921a388e4115.bindPopup(popup_5f99f38c927246bab1f16d1396bc1ab0)
+        ;
+
+        
+    
+    
+            var marker_30b42a9d3b654847b5dca1257967f11d = L.marker(
+                [4.7468228709358, -74.09617366130699],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_0f25b66721d3468191c967b9cbd6101f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30b42a9d3b654847b5dca1257967f11d.setIcon(icon_0f25b66721d3468191c967b9cbd6101f);
+        
+    
+        var popup_5a0a45e3ee954045b6debb7209cc9b92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12bf1dd5cbdd44618e84f4fd2348d0a9 = $(`<div id="html_12bf1dd5cbdd44618e84f4fd2348d0a9" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 17:30:00 hora_fin: 18:40:00 medio: Transmilenio </div>`)[0];
+            popup_5a0a45e3ee954045b6debb7209cc9b92.setContent(html_12bf1dd5cbdd44618e84f4fd2348d0a9);
+        
+
+        marker_30b42a9d3b654847b5dca1257967f11d.bindPopup(popup_5a0a45e3ee954045b6debb7209cc9b92)
+        ;
+
+        
+    
+    
+            var marker_213c7f0617194450bb989d2f1ea4cbf9 = L.marker(
+                [4.6227465499645, -74.14933519012999],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_9485aa40e14d4f30a4dc63095509574d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_213c7f0617194450bb989d2f1ea4cbf9.setIcon(icon_9485aa40e14d4f30a4dc63095509574d);
+        
+    
+        var popup_0b09fdb1cade40e1b361b5fae4907169 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_711aaca6c6c2461fa656011a46381891 = $(`<div id="html_711aaca6c6c2461fa656011a46381891" style="width: 100.0%; height: 100.0%;">motivo_viaje: Trabajar hora_inicio: 08:00:00 hora_fin: 08:30:00 medio: MOTO </div>`)[0];
+            popup_0b09fdb1cade40e1b361b5fae4907169.setContent(html_711aaca6c6c2461fa656011a46381891);
+        
+
+        marker_213c7f0617194450bb989d2f1ea4cbf9.bindPopup(popup_0b09fdb1cade40e1b361b5fae4907169)
+        ;
+
+        
+    
+    
+            var marker_9ca1452ae25c4d3fbd5f535b8c514996 = L.marker(
+                [4.5654858647582, -74.086997692401],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_6caf0439433d47e9b62c45f11590fd9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9ca1452ae25c4d3fbd5f535b8c514996.setIcon(icon_6caf0439433d47e9b62c45f11590fd9a);
+        
+    
+        var popup_4065b181b610401f8e746ac4d82a5d9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_444522fa763343f38fa1550d44a4dc7f = $(`<div id="html_444522fa763343f38fa1550d44a4dc7f" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 17:41:00 hora_fin: 19:31:00 medio: MOTO </div>`)[0];
+            popup_4065b181b610401f8e746ac4d82a5d9d.setContent(html_444522fa763343f38fa1550d44a4dc7f);
+        
+
+        marker_9ca1452ae25c4d3fbd5f535b8c514996.bindPopup(popup_4065b181b610401f8e746ac4d82a5d9d)
+        ;
+
+        
+    
+    
+            var marker_46999c3f6bde4b9c976930bdf1d23c1b = L.marker(
+                [4.6227465499645, -74.14933519012999],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_872bc07456694492903c8cbbaba8d957 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_46999c3f6bde4b9c976930bdf1d23c1b.setIcon(icon_872bc07456694492903c8cbbaba8d957);
+        
+    
+        var popup_b43d6d1a04cf434993a14818df0b314c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db2915ae905642c2b37a78335a0bdcd7 = $(`<div id="html_db2915ae905642c2b37a78335a0bdcd7" style="width: 100.0%; height: 100.0%;">motivo_viaje: Trabajar hora_inicio: 08:20:00 hora_fin: 09:30:00 medio: Transmilenio </div>`)[0];
+            popup_b43d6d1a04cf434993a14818df0b314c.setContent(html_db2915ae905642c2b37a78335a0bdcd7);
+        
+
+        marker_46999c3f6bde4b9c976930bdf1d23c1b.bindPopup(popup_b43d6d1a04cf434993a14818df0b314c)
+        ;
+
+        
+    
+    
+            var marker_23df50bca83b42fc98117e9382d2471a = L.marker(
+                [4.7520365147872, -74.047907006065],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_f425671c263340d78eb6d34321edd055 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_23df50bca83b42fc98117e9382d2471a.setIcon(icon_f425671c263340d78eb6d34321edd055);
+        
+    
+        var popup_fa40633e45d9467889a4a660d33ce5c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2dfa73cd9954555b104febc61b60ca9 = $(`<div id="html_e2dfa73cd9954555b104febc61b60ca9" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 17:42:30 hora_fin: 18:52:40 medio: Transmilenio </div>`)[0];
+            popup_fa40633e45d9467889a4a660d33ce5c2.setContent(html_e2dfa73cd9954555b104febc61b60ca9);
+        
+
+        marker_23df50bca83b42fc98117e9382d2471a.bindPopup(popup_fa40633e45d9467889a4a660d33ce5c2)
+        ;
+
+        
+    
+    
+            var marker_a7b0ae2ea13249a298849a901769c91d = L.marker(
+                [4.6440475806544, -74.165867014489],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_5ae1e4ed088d46efa13e740e7cc3c3bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7b0ae2ea13249a298849a901769c91d.setIcon(icon_5ae1e4ed088d46efa13e740e7cc3c3bb);
+        
+    
+        var popup_1aff695558d74065acb3fa7a4c9a77fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34560d67a30d4b4aa3b9f9bef868ae32 = $(`<div id="html_34560d67a30d4b4aa3b9f9bef868ae32" style="width: 100.0%; height: 100.0%;">motivo_viaje: Estudiar hora_inicio: 07:10:00 hora_fin: 08:30:00 medio: Transmilenio </div>`)[0];
+            popup_1aff695558d74065acb3fa7a4c9a77fe.setContent(html_34560d67a30d4b4aa3b9f9bef868ae32);
+        
+
+        marker_a7b0ae2ea13249a298849a901769c91d.bindPopup(popup_1aff695558d74065acb3fa7a4c9a77fe)
+        ;
+
+        
+    
+    
+            var marker_5b215a39c11e45d5ac690cb4a71173b1 = L.marker(
+                [4.6489263517217, -74.081502129421],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_dd91d3a7d45240d1b83c9357cb0e203e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b215a39c11e45d5ac690cb4a71173b1.setIcon(icon_dd91d3a7d45240d1b83c9357cb0e203e);
+        
+    
+        var popup_03aba14b31a744b29d25e243929e81ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9834f1305814927a7f4d2d77293123f = $(`<div id="html_a9834f1305814927a7f4d2d77293123f" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 14:10:00 hora_fin: 15:30:00 medio: Transmilenio </div>`)[0];
+            popup_03aba14b31a744b29d25e243929e81ae.setContent(html_a9834f1305814927a7f4d2d77293123f);
+        
+
+        marker_5b215a39c11e45d5ac690cb4a71173b1.bindPopup(popup_03aba14b31a744b29d25e243929e81ae)
+        ;
+
+        
+    
+    
+            var marker_8fecc830a18e4945914cdb2f08972570 = L.marker(
+                [4.6440475806544, -74.165867014489],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_9974b06b1b4d4ebb8815b606bbd56114 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8fecc830a18e4945914cdb2f08972570.setIcon(icon_9974b06b1b4d4ebb8815b606bbd56114);
+        
+    
+        var popup_7ce5004b895046c8b062943a041198e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ef7667896594cf88a10c816a7a572e2 = $(`<div id="html_6ef7667896594cf88a10c816a7a572e2" style="width: 100.0%; height: 100.0%;">motivo_viaje: Estudiar hora_inicio: 10:19:00 hora_fin: 11:05:00 medio: Transmilenio </div>`)[0];
+            popup_7ce5004b895046c8b062943a041198e9.setContent(html_6ef7667896594cf88a10c816a7a572e2);
+        
+
+        marker_8fecc830a18e4945914cdb2f08972570.bindPopup(popup_7ce5004b895046c8b062943a041198e9)
+        ;
+
+        
+    
+    
+            var marker_3c08618b2eed4766bf3f9d394daef607 = L.marker(
+                [4.6437948128341, -74.062063034272],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_257925b3ade7439c8949060e465453fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3c08618b2eed4766bf3f9d394daef607.setIcon(icon_257925b3ade7439c8949060e465453fb);
+        
+    
+        var popup_b86e264670444a4086578feb32e0e57d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94c35f4f11414309beb090729745d5f2 = $(`<div id="html_94c35f4f11414309beb090729745d5f2" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 14:36:00 hora_fin: 15:36:00 medio: Transmilenio </div>`)[0];
+            popup_b86e264670444a4086578feb32e0e57d.setContent(html_94c35f4f11414309beb090729745d5f2);
+        
+
+        marker_3c08618b2eed4766bf3f9d394daef607.bindPopup(popup_b86e264670444a4086578feb32e0e57d)
+        ;
+
+        
+    
+    
+            var marker_1f02642e70054a3cadc31c44d0a8135e = L.marker(
+                [4.6440475806544, -74.165867014489],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_3fe0b2aa1ad94d0486fbdc80bf233107 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1f02642e70054a3cadc31c44d0a8135e.setIcon(icon_3fe0b2aa1ad94d0486fbdc80bf233107);
+        
+    
+        var popup_7741eeb2c7bc420fb59311e8da7074de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cd422935aaf447bb36f17c3b51436af = $(`<div id="html_1cd422935aaf447bb36f17c3b51436af" style="width: 100.0%; height: 100.0%;">motivo_viaje: Estudiar hora_inicio: 10:19:00 hora_fin: 11:05:00 medio: Transmilenio </div>`)[0];
+            popup_7741eeb2c7bc420fb59311e8da7074de.setContent(html_1cd422935aaf447bb36f17c3b51436af);
+        
+
+        marker_1f02642e70054a3cadc31c44d0a8135e.bindPopup(popup_7741eeb2c7bc420fb59311e8da7074de)
+        ;
+
+        
+    
+    
+            var marker_368252f7f6624abcb18898d46a202f63 = L.marker(
+                [4.6487881462404, -74.079444366226],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_07aa6faaf8f0438f9d6530c8a3c46109 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_368252f7f6624abcb18898d46a202f63.setIcon(icon_07aa6faaf8f0438f9d6530c8a3c46109);
+        
+    
+        var popup_55e0a303de0c47a0b804605b5b783fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_298d5d124757437d871e7e2f0d4f56c2 = $(`<div id="html_298d5d124757437d871e7e2f0d4f56c2" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 14:36:00 hora_fin: 15:36:00 medio: Transmilenio </div>`)[0];
+            popup_55e0a303de0c47a0b804605b5b783fe4.setContent(html_298d5d124757437d871e7e2f0d4f56c2);
+        
+
+        marker_368252f7f6624abcb18898d46a202f63.bindPopup(popup_55e0a303de0c47a0b804605b5b783fe4)
+        ;
+
+        
+    
+    
+            var marker_7deadc58e87c4920aea112ac44a52592 = L.marker(
+                [4.6440475806544, -74.165867014489],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_11fd1fb46af54e36b9bce2e3eba01322 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7deadc58e87c4920aea112ac44a52592.setIcon(icon_11fd1fb46af54e36b9bce2e3eba01322);
+        
+    
+        var popup_4a1ea92f9c794c9e9b9b99e5b4abaf38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4186266a36b7440188f1854c8489888f = $(`<div id="html_4186266a36b7440188f1854c8489888f" style="width: 100.0%; height: 100.0%;">motivo_viaje: Asuntos de Trabajo hora_inicio: 09:30:00 hora_fin: 11:10:00 medio: BICICLETA, BICICLETA CON MOTOR </div>`)[0];
+            popup_4a1ea92f9c794c9e9b9b99e5b4abaf38.setContent(html_4186266a36b7440188f1854c8489888f);
+        
+
+        marker_7deadc58e87c4920aea112ac44a52592.bindPopup(popup_4a1ea92f9c794c9e9b9b99e5b4abaf38)
+        ;
+
+        
+    
+    
+            var marker_4ea362b6b13647308a60967674d86b88 = L.marker(
+                [4.6425619920317, -74.167605302526],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_cb9d3dbd36a6401e92cf420b6cbf8eb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4ea362b6b13647308a60967674d86b88.setIcon(icon_cb9d3dbd36a6401e92cf420b6cbf8eb8);
+        
+    
+        var popup_7425eadaeb6042c499d2421a952b6274 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ea51dba415c4ce799a52a2060587401 = $(`<div id="html_8ea51dba415c4ce799a52a2060587401" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 12:31:10 hora_fin: 13:21:10 medio: BICICLETA, BICICLETA CON MOTOR </div>`)[0];
+            popup_7425eadaeb6042c499d2421a952b6274.setContent(html_8ea51dba415c4ce799a52a2060587401);
+        
+
+        marker_4ea362b6b13647308a60967674d86b88.bindPopup(popup_7425eadaeb6042c499d2421a952b6274)
+        ;
+
+        
+    
+    
+            var marker_1107e90e05814ec5a24b2c361e277884 = L.marker(
+                [4.7174553718569, -74.131323967405],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_45cba8db6a6c417eaf7238dfa1f43017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1107e90e05814ec5a24b2c361e277884.setIcon(icon_45cba8db6a6c417eaf7238dfa1f43017);
+        
+    
+        var popup_90fbdad6d84a4b768c17d881d9e1b12c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c88645c4737b439483ea2eae5ec9c429 = $(`<div id="html_c88645c4737b439483ea2eae5ec9c429" style="width: 100.0%; height: 100.0%;">motivo_viaje: Otra cosa hora_inicio: 08:23:00 hora_fin: 08:39:00 medio: MOTO </div>`)[0];
+            popup_90fbdad6d84a4b768c17d881d9e1b12c.setContent(html_c88645c4737b439483ea2eae5ec9c429);
+        
+
+        marker_1107e90e05814ec5a24b2c361e277884.bindPopup(popup_90fbdad6d84a4b768c17d881d9e1b12c)
+        ;
+
+        
+    
+    
+            var marker_6e41db5d81264df4b9123312be8c1026 = L.marker(
+                [4.6242956235248, -74.076277775596],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_3b4152ab500d4199a34d7c061045edc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6e41db5d81264df4b9123312be8c1026.setIcon(icon_3b4152ab500d4199a34d7c061045edc6);
+        
+    
+        var popup_60c201d7ac064f53930818ab75ffadec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13b71b2da1c54143826ce30975828f7c = $(`<div id="html_13b71b2da1c54143826ce30975828f7c" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 14:17:00 hora_fin: 14:33:00 medio: MOTO </div>`)[0];
+            popup_60c201d7ac064f53930818ab75ffadec.setContent(html_13b71b2da1c54143826ce30975828f7c);
+        
+
+        marker_6e41db5d81264df4b9123312be8c1026.bindPopup(popup_60c201d7ac064f53930818ab75ffadec)
+        ;
+
+        
+    
+    
+            var marker_81c54bf2c119475393be25dc13e16b1b = L.marker(
+                [4.6141827198986, -74.18521363584699],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_17940e9f095142aaa16e0e6d3db5fe5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_81c54bf2c119475393be25dc13e16b1b.setIcon(icon_17940e9f095142aaa16e0e6d3db5fe5d);
+        
+    
+        var popup_033e84c95ac249ab84f5f1267babcc12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aea65a4e5c6c47f69d2b1710c00f4d80 = $(`<div id="html_aea65a4e5c6c47f69d2b1710c00f4d80" style="width: 100.0%; height: 100.0%;">motivo_viaje: Estudiar hora_inicio: 07:00:00 hora_fin: 09:00:00 medio: Transmilenio </div>`)[0];
+            popup_033e84c95ac249ab84f5f1267babcc12.setContent(html_aea65a4e5c6c47f69d2b1710c00f4d80);
+        
+
+        marker_81c54bf2c119475393be25dc13e16b1b.bindPopup(popup_033e84c95ac249ab84f5f1267babcc12)
+        ;
+
+        
+    
+    
+            var marker_4e439d5b46e346fea411ac118b7774e5 = L.marker(
+                [4.6096390840277, -74.07139179594],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_7a7df4f16ca94d89b90f79413b7a6997 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4e439d5b46e346fea411ac118b7774e5.setIcon(icon_7a7df4f16ca94d89b90f79413b7a6997);
+        
+    
+        var popup_b879645db8154ad1a0186b1414941cd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a36ec8664ad147beb20351a20908e67c = $(`<div id="html_a36ec8664ad147beb20351a20908e67c" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 09:26:00 hora_fin: 11:16:00 medio: Transmilenio </div>`)[0];
+            popup_b879645db8154ad1a0186b1414941cd1.setContent(html_a36ec8664ad147beb20351a20908e67c);
+        
+
+        marker_4e439d5b46e346fea411ac118b7774e5.bindPopup(popup_b879645db8154ad1a0186b1414941cd1)
+        ;
+
+        
+    
+    
+            var marker_b398e79dc79e4c89b9bdf44a159f0231 = L.marker(
+                [4.6227465499645, -74.14933519012999],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_d47c1fd9cd26402d853fd532e2ca52b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b398e79dc79e4c89b9bdf44a159f0231.setIcon(icon_d47c1fd9cd26402d853fd532e2ca52b4);
+        
+    
+        var popup_ff5d3fc2f5f94574b990513e37b9e831 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f164ae24e83d47b7a6182e4d26c06842 = $(`<div id="html_f164ae24e83d47b7a6182e4d26c06842" style="width: 100.0%; height: 100.0%;">motivo_viaje: Compras hora_inicio: 13:30:00 hora_fin: 13:40:00 medio: PEATON </div>`)[0];
+            popup_ff5d3fc2f5f94574b990513e37b9e831.setContent(html_f164ae24e83d47b7a6182e4d26c06842);
+        
+
+        marker_b398e79dc79e4c89b9bdf44a159f0231.bindPopup(popup_ff5d3fc2f5f94574b990513e37b9e831)
+        ;
+
+        
+    
+    
+            var marker_de9712024c144b02a8bc2668e33aa261 = L.marker(
+                [4.6224791421959, -74.151397416274],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_e444fe6630b64f2984f7912fb1145091 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_de9712024c144b02a8bc2668e33aa261.setIcon(icon_e444fe6630b64f2984f7912fb1145091);
+        
+    
+        var popup_40a6872b4a1c49b193a0ff8cb3c014c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5109c70000574345ad3433ca6f070b88 = $(`<div id="html_5109c70000574345ad3433ca6f070b88" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 14:00:00 hora_fin: 14:10:00 medio: PEATON </div>`)[0];
+            popup_40a6872b4a1c49b193a0ff8cb3c014c2.setContent(html_5109c70000574345ad3433ca6f070b88);
+        
+
+        marker_de9712024c144b02a8bc2668e33aa261.bindPopup(popup_40a6872b4a1c49b193a0ff8cb3c014c2)
+        ;
+
+        
+    
+    
+            var marker_0333312952e74c6cba5eeb35efc76b8d = L.marker(
+                [4.6227891211967, -74.149296554557],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_c2255ed560c7430480af55a03d894014 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0333312952e74c6cba5eeb35efc76b8d.setIcon(icon_c2255ed560c7430480af55a03d894014);
+        
+    
+        var popup_b43a462ee8af412fb6fcb82e72f93969 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_770609286f364a54b7755de19c9c1ec8 = $(`<div id="html_770609286f364a54b7755de19c9c1ec8" style="width: 100.0%; height: 100.0%;">motivo_viaje: Ir a ver a alguien hora_inicio: 15:53:00 hora_fin: 16:13:00 medio: PEATON </div>`)[0];
+            popup_b43a462ee8af412fb6fcb82e72f93969.setContent(html_770609286f364a54b7755de19c9c1ec8);
+        
+
+        marker_0333312952e74c6cba5eeb35efc76b8d.bindPopup(popup_b43a462ee8af412fb6fcb82e72f93969)
+        ;
+
+        
+    
+    
+            var marker_dd249c4315504b24b691e72b45adf371 = L.marker(
+                [4.6249330164369, -74.14875403812499],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_f9db8edc2dc04081882127425f6ca812 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd249c4315504b24b691e72b45adf371.setIcon(icon_f9db8edc2dc04081882127425f6ca812);
+        
+    
+        var popup_43d9753367364e79ba28d23ee498dce4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f17e55094364cbb8db14655a126a956 = $(`<div id="html_9f17e55094364cbb8db14655a126a956" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 19:45:00 hora_fin: 20:35:00 medio: PEATON </div>`)[0];
+            popup_43d9753367364e79ba28d23ee498dce4.setContent(html_9f17e55094364cbb8db14655a126a956);
+        
+
+        marker_dd249c4315504b24b691e72b45adf371.bindPopup(popup_43d9753367364e79ba28d23ee498dce4)
+        ;
+
+        
+    
+    
+            var marker_2f5b2ad907f247bfb55489a42fcb47ba = L.marker(
+                [4.6240088031383, -74.14780373689099],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_6d9235f4230546ee80c1ecb3e0ef7679 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2f5b2ad907f247bfb55489a42fcb47ba.setIcon(icon_6d9235f4230546ee80c1ecb3e0ef7679);
+        
+    
+        var popup_bb7e5153425c4615b5b31e9b4268ca4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7889d5aa212543acb4720cb07fe9fada = $(`<div id="html_7889d5aa212543acb4720cb07fe9fada" style="width: 100.0%; height: 100.0%;">motivo_viaje: Ir a ver a alguien hora_inicio: 15:00:00 hora_fin: 15:50:00 medio: PEATON </div>`)[0];
+            popup_bb7e5153425c4615b5b31e9b4268ca4e.setContent(html_7889d5aa212543acb4720cb07fe9fada);
+        
+
+        marker_2f5b2ad907f247bfb55489a42fcb47ba.bindPopup(popup_bb7e5153425c4615b5b31e9b4268ca4e)
+        ;
+
+        
+    
+    
+            var marker_4af68315c315471eadeb3337fa6057bd = L.marker(
+                [4.6249330164369, -74.14875403812499],
+                {}
+            ).addTo(map_a43ed68ed7c84368a7a965b322c3e50f);
+        
+    
+            var icon_e8d9044527f8451d9916bf73b9972df9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4af68315c315471eadeb3337fa6057bd.setIcon(icon_e8d9044527f8451d9916bf73b9972df9);
+        
+    
+        var popup_4a13dc054d1c4113a03985e291059f77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4009e6a06d0c4878bc6c71904d0a7bce = $(`<div id="html_4009e6a06d0c4878bc6c71904d0a7bce" style="width: 100.0%; height: 100.0%;">motivo_viaje: Volver a casa hora_inicio: 23:47:48 hora_fin: 00:08:59 medio: PEATON </div>`)[0];
+            popup_4a13dc054d1c4113a03985e291059f77.setContent(html_4009e6a06d0c4878bc6c71904d0a7bce);
+        
+
+        marker_4af68315c315471eadeb3337fa6057bd.bindPopup(popup_4a13dc054d1c4113a03985e291059f77)
+        ;
+
+        
+    
+</script>
